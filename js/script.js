@@ -2,7 +2,7 @@
 
 for (let i = 1; i <= 100; i++){
 // Crea un container nel DOM
-const container = document.querySelector(".container");
+const container = document.getElementById("container");
 
 // Crea un elemento da mettere dentro al contenitore
 let square = document.createElement ("div");
